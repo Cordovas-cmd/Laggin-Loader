@@ -13,6 +13,7 @@ function bgBlur() {
        let btn= document.createElement('button', 'type=btn')
        btn.classList.add('enter-btn');
        btn.innerHTML="Enter"
+    //    btn.style.opacity= 0
 
        document.body.appendChild(btn);
 
@@ -30,19 +31,22 @@ function bgBlur() {
     //     setTimeout(() => {
     //         bg.style.transform = "";
     //       }, 500);   
-    })
+    });
 
     btn.addEventListener('mouseleave', function () {
         bg.style.transform = "";})
-    }
+
+        btn.addEventListener('click', function () {
+            window.location.href = 'Portfolio.html';
+    });
     
     loadText.innerText = `${load}%`  
     // need to map 0 to 100 to 1 to 0
     loadText.style.opacity = scale(load, 0, 100, 1.6, 0)
     bg.style.filter= `blur(${scale(load, 0, 100, 30, 0)}px`
     //   console.log(load)
-}
-let button= document.querySelector('button')
+}}
+// let button= document.querySelector('button')
 
 
 // https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
