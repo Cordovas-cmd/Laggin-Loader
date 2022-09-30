@@ -21,7 +21,13 @@ body {
   top:0;
   margin-top: 200px;
   font-size: 40px;
-  animation: fadeIn 5s;
+  animation-name: fadeIn, glowing;
+  animation-duration: 5s, 1300ms;
+  animation-iteration-count: 1, infinite;
+  /* animation: glowing 1300ms infinite; */
+  animation-delay: 0s, 1s;
+  color: rebeccapurple;
+  /* animation-delay: 0, 0; */
   /* animation-direction: alternate; */
 }
 
@@ -60,7 +66,7 @@ body {
   /* margin-top: 80px; */
   /* animation-delay: 2.1s, 480ms; */
   opacity: 1;
-  animation: fadeIn 12s;
+  animation: fadeIn 10s;
   /* animation-delay: 2s; */
   /* animation-play-state: paused; */
   
@@ -81,14 +87,13 @@ body {
 @keyframes glowing {
   0% {
     /* background-color: #2ba805; */
-    box-shadow: 0 0 5px rgba(102, 51, 153, 0.9);
+    text-shadow: 0 0 5px #2ba805;
   }
   50% {
     /* background-color: #49e819; */
-    box-shadow: 0 0 20px rgba(102, 51, 153, 0.9);
+    text-shadow: 0 0 20px #49e819;
   }
   100% {
     /* background-color: #2ba805; */
-    box-shadow: 0 0 5px rgba(102, 51, 153, 0.9);
-  }
-}
+    text-shadow: 0 0 5px #2ba805;
+  }}

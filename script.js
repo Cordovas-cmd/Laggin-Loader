@@ -35,9 +35,7 @@ function bgBlur() {
 
     btn.addEventListener('mouseleave', function () {
         bg.style.transform = "";})
-        btn.addEventListener('click', function () {
-            window.location.href = 'Portfolio.html';
-    })
+        
     }
     
     loadText.innerText = `${load}%`  
