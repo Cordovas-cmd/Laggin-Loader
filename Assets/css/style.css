@@ -27,7 +27,7 @@ body {
 
 
 .bg {
-    background: url('./Assets/maxresdefault.jpg') no-repeat center center/cover;
+    background: url('../images/maxresdefault.jpg') no-repeat center center/cover;
     position: absolute;
     top: -30;
     left: -30;
