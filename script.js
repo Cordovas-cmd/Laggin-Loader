@@ -10,6 +10,13 @@ function bgBlur() {
     load++
 
     if(load > 99) {
+       let btn= document.createElement('button', 'type=btn')
+       btn.classList.add('enter-btn');
+       btn.innerHTML="Enter"
+
+       document.body.appendChild(btn);
+    //    window.location.replace("http://www.w3schools.com");
+
         clearInterval(int);
     }
 
