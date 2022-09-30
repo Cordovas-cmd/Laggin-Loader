@@ -20,7 +20,7 @@ body {
   position: absolute;
   top:0;
   margin-top: 200px;
-  font-size: 40px;
+  font-size: 50px;
   animation-name: fadeIn, glowing;
   animation-duration: 5s, 1300ms;
   animation-iteration-count: 1, infinite;
@@ -29,6 +29,18 @@ body {
   color: rebeccapurple;
   /* animation-delay: 0, 0; */
   /* animation-direction: alternate; */
+}
+.second-header {
+  /* position: absolute; */
+  /* bottom:0; */
+  margin: auto;
+  margin-top: auto;
+  margin-left: auto;
+/* display: block; */
+width: 100vw;
+margin-top: 40%;
+margin-left: 83%;
+font-size: 50px;
 }
 
 
@@ -67,6 +79,7 @@ body {
   /* animation-delay: 2.1s, 480ms; */
   opacity: 1;
   animation: fadeIn 10s;
+  margin-right: 100px;
   /* animation-delay: 2s; */
   /* animation-play-state: paused; */
   
