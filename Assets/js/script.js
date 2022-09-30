@@ -19,14 +19,14 @@ function bgBlur() {
 
        header = document.createElement('h1');
        header.classList.add('header');
-       header.innerHTML="Laugh and the world laughs with you..."
+       header.innerHTML="Laugh, and the world laughs with you..."
        document.body.appendChild(header);
        //    window.location.replace("http://www.w3schools.com");
        setTimeout(() => {
         secondHeader = document.createElement('h1');
         secondHeader.classList.add('header');
         secondHeader.classList.add('second-header');
-        secondHeader.innerHTML="Weep and you weep alone";
+        secondHeader.innerHTML="Weep, and you weep alone...";
         document.body.appendChild(secondHeader)
     }, 5000);
        clearInterval(int);

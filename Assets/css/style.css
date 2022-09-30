@@ -39,7 +39,7 @@ body {
 /* display: block; */
 width: 100vw;
 margin-top: 40%;
-margin-left: 83%;
+margin-left: 76%;
 font-size: 50px;
 }
 
@@ -79,7 +79,7 @@ font-size: 50px;
   /* animation-delay: 2.1s, 480ms; */
   opacity: 1;
   animation: fadeIn 10s;
-  margin-right: 100px;
+  margin-right: 140px;
   /* animation-delay: 2s; */
   /* animation-play-state: paused; */
   
