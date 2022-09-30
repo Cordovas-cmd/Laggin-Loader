@@ -27,10 +27,13 @@ function bgBlur() {
         console.log(bg)
         flipBg(bg)
         console.log("hello!");
-        setTimeout(() => {
-            bg.style.transform = "";
-          }, 500);   
+    //     setTimeout(() => {
+    //         bg.style.transform = "";
+    //       }, 500);   
     })
+
+    btn.addEventListener('mouseleave', function () {
+        bg.style.transform = "";})
     }
     
     loadText.innerText = `${load}%`  
