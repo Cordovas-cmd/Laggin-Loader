@@ -69,3 +69,5 @@ function flipBg(element) {
 
 // button.addEventListener('mouseover', () => { flipBg()})
 // btn.addEventListener('mouseover', () => { flipBg()})
+
+// Going to add a way to make more styles appear when needed.

@@ -35,8 +35,10 @@ function bgBlur() {
 
     btn.addEventListener('mouseleave', function () {
         bg.style.transform = "";})
-        
-    }
+
+        btn.addEventListener('click', function () {
+            window.location.href = 'Portfolio.html';
+    });
     
     loadText.innerText = `${load}%`  
     // need to map 0 to 100 to 1 to 0

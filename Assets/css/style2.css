@@ -20,7 +20,10 @@ body {
 
 .container{
     display: flex;
-    width:90vw;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width:100vw;
 }
 
 .panel {
@@ -74,3 +77,5 @@ body {
         display: none;
     }
 }
+
+/* Need to try and put more styles ont he second page */
