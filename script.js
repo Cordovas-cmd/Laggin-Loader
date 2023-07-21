@@ -3,7 +3,7 @@ let bg = document.querySelector('.bg');
 // start load off at 0 and we need to increment it every so often to both show load progress and reveal the background image.
 let load = 0;
 
-
+// need to add products and catalogue to page.
 let int = setInterval(bgBlur, 30);
 
 function bgBlur() {
@@ -45,6 +45,7 @@ function bgBlur() {
     loadText.style.opacity = scale(load, 0, 100, 1.6, 0)
     bg.style.filter= `blur(${scale(load, 0, 100, 30, 0)}px`
     //   console.log(load)
+}
 }
 // let button= document.querySelector('button')
 
